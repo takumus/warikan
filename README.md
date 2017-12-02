@@ -2,7 +2,8 @@
 ## これは何
 複数人が支払った場合の割り勘を解決するツールです。
 ## インストール
-`npm install warikan --registry http://npm.takumus.com`
+`npm install warikan --registry http://npm.takumus.com`  
+まだコマンドラインツールとかにしてないから`./node_modules/warikan/`で`node .`してください...
 ## 使い方
 config.js
 ```js
@@ -15,4 +16,4 @@ module.exports = [
     {name: "すわ", value: 1200}
 ];
 ```
-これで、`node .`するだけ！
+これで`node .`するだけ！
